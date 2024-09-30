@@ -3,7 +3,9 @@ To avoid typing password everytime you use sudo command.
 Step to use
 
 Step# 1. Download script sudo_pass to any of bin directory. If you do not have permission to copy files other than your home directory then create a bin directory under your home directory and copy it there.
+
 Step# 2. Make sure that script has execute permission. i.e. chmod +x sudo_pass
+
 Step# 3. Run "sudo_pass -s" to set password. This will store your password under your home directory ".config/sudoPass/myPass" file.
 
   # sudo_pass -s
